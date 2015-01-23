@@ -6,6 +6,7 @@
  * @copyright (c) 2015
  * 
  */
+//all (currently just end) hooks 
 $hooks = array(
     'compress'
 );

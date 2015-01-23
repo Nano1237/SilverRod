@@ -1,7 +1,7 @@
 <?php
 
 /**
- * many used Functions are in this file
+ * This file contains common used functions, that are accessable from everywhere
  * @author Tim Rücker <tim.ruecker@ymail.com>
  * @copyright (c) 2015
  * 
@@ -9,7 +9,8 @@
 if (!function_exists('_fatal_error_handler')) {
 
     /**
-     * adds a custom Fatal Error handler
+     * If the SilverRod class isset and it contains an error object, 
+     * the fatal() method is used as fatal error handler
      * @global object $SR the Silverrod Class
      */
     function _fatal_error_handler() {
@@ -32,7 +33,8 @@ if (!function_exists('_fatal_error_handler')) {
 if (!function_exists('_custom_error_handler')) {
 
     /**
-     * adds a custom error handler
+     * If the SilverRod class isset and it contains an error object, 
+     * the alert() method is used as error handler
      * @global object $SR the SilverRod Class
      * @param number $code The ErrorCode (unused)
      * @param string $text The error Text

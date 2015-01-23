@@ -2,7 +2,6 @@
 
 /**
  * 
- * Lädt eine Javascript Klasse, mitder vershciedene Scripts eingebunden werden können@author Tim Rücker <tim.ruecker@ymail.com>
  * @copyright (c) 2015
  * 
  */
