@@ -13,7 +13,7 @@ $protocol = 'https://';
 /**
  * The path to the webfolders
  */
-$folderPath = 'SilverRod/';
+$folderPath = 'poem/';
 /**
  * The translationfiles that shoud be loaded
  */

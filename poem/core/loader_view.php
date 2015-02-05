@@ -42,7 +42,7 @@ class loader_view {
     /**
      * 
      * Loads a view and injects variables
-     * @global type $SR The silverrod object for the view actions
+     * @global type $SR The poem object for the view actions
      * @param string $vName The View name
      * @param array $insertData The inject data
      * @param boolean $return shoud the rendered view be returned or echo at the end of the file

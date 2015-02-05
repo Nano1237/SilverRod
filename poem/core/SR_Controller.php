@@ -6,7 +6,7 @@
  * @copyright (c) 2015
  * 
  */
-class SR_Controller extends SilverRod {
+class SR_Controller extends poem {
 
     /**
      * 

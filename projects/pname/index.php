@@ -1,7 +1,7 @@
 <?php
 
-//path to the SilverRod project
-$system_path = __DIR__ . '/../../SilverRod/';
+//path to the poem project
+$system_path = __DIR__ . '/../../poem/';
 
 if (defined('STDIN')) {
     chdir(dirname(__FILE__));
@@ -13,7 +13,7 @@ if (realpath($system_path) !== FALSE) {
 $system_path = rtrim($system_path, '/') . '/';
 //checks if the core is found
 if (!is_dir($system_path)) {
-    exit('Das SilverRod core not found! Is this path correct?' . "\n" . $system_path);
+    exit('Das poem core not found! Is this path correct?' . "\n" . $system_path);
 }
 //The name of the current file
 define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));

@@ -6,7 +6,7 @@
  * @copyright (c) 2015
  * 
  */
-class SR_Library extends SilverRod {
+class SR_Library extends poem {
 
     /**
      * 

@@ -6,7 +6,7 @@
  * @copyright (c) 2015
  * 
  */
-class SR_View extends SilverRod {
+class SR_View extends poem {
 
     public function __construct() {
         parent::__construct();

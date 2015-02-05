@@ -2,13 +2,13 @@
 
 /**
  * This is an example controller.
- * You can acces it if you browse to /SilverRod/projects/pname/demo.
+ * You can acces it if you browse to /poem/projects/pname/demo.
  * It will then start the <b>index() method</b>.
  * 
- * If you browse to /SilverRod/projects/pname/demo/variable 
+ * If you browse to /poem/projects/pname/demo/variable 
  * it will start the </b>variable() method</b>
  * 
- * If you browse to /SilverRod/projects/pname/demo/variable/Cookie 
+ * If you browse to /poem/projects/pname/demo/variable/Cookie 
  * it will start the </b>variable() method</b> with the $param set as 'Cookie'
  */
 class demo extends SR_Controller {
@@ -18,7 +18,7 @@ class demo extends SR_Controller {
     }
 
     /**
-     * Shows the /SilverRod/projects/pname/views/view.php with the containing
+     * Shows the /poem/projects/pname/views/view.php with the containing
      * $someVariable set as $someVariable = $variable
      * @param String $variable
      */

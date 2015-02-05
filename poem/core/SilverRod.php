@@ -6,7 +6,7 @@
  * @copyright (c) 2015
  * 
  */
-class SilverRod {
+class poem {
 
     public function __construct() {
         global $config;

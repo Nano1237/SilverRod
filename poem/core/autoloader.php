@@ -17,7 +17,7 @@ class autoloader {
         $this->requireCore(array(
             'loader_input',
             'loader',
-            'SilverRod',
+            'poem',
             'SR_Library'
         ));
         $SR = load_class('SR_View', 'core');

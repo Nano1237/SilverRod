@@ -9,9 +9,9 @@
 if (!function_exists('_fatal_error_handler')) {
 
     /**
-     * If the SilverRod class isset and it contains an error object, 
+     * If the poem class isset and it contains an error object, 
      * the fatal() method is used as fatal error handler
-     * @global object $SR the Silverrod Class
+     * @global object $SR the poem Class
      */
     function _fatal_error_handler() {
         $error = error_get_last();
@@ -33,9 +33,9 @@ if (!function_exists('_fatal_error_handler')) {
 if (!function_exists('_custom_error_handler')) {
 
     /**
-     * If the SilverRod class isset and it contains an error object, 
+     * If the poem class isset and it contains an error object, 
      * the alert() method is used as error handler
-     * @global object $SR the SilverRod Class
+     * @global object $SR the poem Class
      * @param number $code The ErrorCode (unused)
      * @param string $text The error Text
      * @param string $file The Error file

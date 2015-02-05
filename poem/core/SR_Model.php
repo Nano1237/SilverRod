@@ -6,7 +6,7 @@
  * @copyright (c) 2015
  * 
  */
-class SR_Model extends SilverRod {
+class SR_Model extends poem {
 
     public function __construct($lib) {
         parent::__construct();

@@ -48,7 +48,7 @@ class loader {
     /**
      * loads a library and writes it as property
      * @param string $library the library name
-     * @param boolean $relative is the library in the Silverrod folder or in the app
+     * @param boolean $relative is the library in the poem folder or in the app
      */
     public function library($library, $relative = false, $new = false) {
         $path = ($relative) ? APPPATH . '/' : '';
